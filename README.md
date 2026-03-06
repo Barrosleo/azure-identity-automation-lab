@@ -14,6 +14,27 @@ The repository is intentionally minimal and readable, prioritising clarity over 
 
 ---
 
+## Repository structure
+
+```
+azure-identity-automation-lab/
+├── README.md
+├── requirements.txt
+├── .env.example
+├── .gitignore
+├── scripts/
+│   ├── auth.py
+│   ├── create_users.py
+│   ├── create_groups.py
+│   ├── assign_group_membership.py
+│   └── audit_identity_state.py
+└── docs/
+    ├── architecture.md
+    └── security-notes.md
+```
+
+---
+
 ## What This Lab Demonstrates
 
 - Programmatic creation of Azure Entra ID users
